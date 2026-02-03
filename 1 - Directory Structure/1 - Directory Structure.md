@@ -8,10 +8,10 @@ Examples:
 /home/user
 ```
 ***
-### /root
+### `/root
 ##### - Root home directory
 ***
-### /bin
+### `/bin
 ##### - Essential user command binaries
 
 Examples: 
@@ -34,7 +34,7 @@ which ls
 which git
 ```
 ***
-### /sbin
+### `/sbin
 ##### - System command binaries (administrative commands)
 
 Examples:
@@ -55,7 +55,7 @@ which ls
 which git
 ```
 ***
-### /lib
+### `/lib
 ##### - Essential shared libraries and kernel modules
 
 Necessary libraries for boot, /bin, /sbin, etc;
@@ -66,7 +66,7 @@ Examples:
 /lib/firmware/
 ```
 ***
-### /etc
+### `/etc
 ##### - Host-specific system configuration
 
 Examples: 
@@ -76,7 +76,7 @@ Examples:
 /etc/hosts
 ```
 ***
-### /usr
+### `/usr
 ##### - Multiuser utilities and applications (secondary hierarchy)
 
 Installed programs, libraries, documentation, etc;
@@ -88,7 +88,7 @@ Examples:
 /usr/share
 ```
 ***
-### /mnt
+### `/mnt
 ##### - Mount point for a temporarily mounted filesystems
 
 Manual mounting point;
@@ -98,7 +98,7 @@ Examples:
 /mnt/backup
 ```
 ***
-### /media
+### `/media
 ##### - Mount point for removable media
 
 Automatic mounting point;
@@ -109,7 +109,7 @@ Examples:
 /media/exthd
 ```
 ***
-### /dev
+### `/dev
 ##### - Device files
 
 Linux treats hardware as files;
@@ -121,7 +121,7 @@ Examples:
 /dev/tty
 ```
 ***
-### /opt
+### `/opt
 ##### - Add-on application software packages
 
 Big programs, isolated, not coming from distro;
@@ -135,16 +135,17 @@ Examples:
 ```
 
 ***
-### /srv
+### `/srv
 ##### - Data served by services
 
+Examples:
 ``` sh
 /srv/www
 /srv/ftp
 /srv/git
 ```
 ***
-### /var
+### `/var
 ##### - Variable files
 
 Files that change over time;
@@ -157,7 +158,7 @@ Examples:
 ```
 
 ***
-### /proc
+### `/proc
 ##### - Virtual filesystem documenting kernel and process status as text files
 
 Not real files;
@@ -169,7 +170,7 @@ Examples:
 /proc/meminfo
 ```
 ***
-### /boot
+### `/boot
 ##### - Static boot loader files
 
 Files used on boot;
@@ -181,7 +182,7 @@ Examples:
 /boot/grub/       → bootloader
 ```
 ***
-### /tmp
+### `/tmp
 ##### - Temporary files
 
 Any user can manage files here;
@@ -192,7 +193,7 @@ Examples:
 /tmp/build123
 ```
 ***
-### Summary
+### `Summary
 
 ![[Pasted image 20260201212006.png]]
 ![[Pasted image 20260201213320.png]]
