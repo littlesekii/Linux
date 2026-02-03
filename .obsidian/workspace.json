@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Directory Structure/1 - Directory Structure.md",
+                "file": "3 - Permissions/3 - Permissions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 - Directory Structure"
+              "title": "3 - Permissions"
             }
           }
         ],
@@ -201,8 +201,10 @@
   "active": "659c68cb4caef2e3",
   "lastOpenFiles": [
     "2 - Essential Commands/2 - Essential Commands.md",
-    "1 - Directory Structure/1 - Directory Structure.md",
+    "3 - Permissions/3 - Permissions.md",
+    "3 - Permissions",
     "0 - Linux.md",
+    "1 - Directory Structure/1 - Directory Structure.md",
     "Directory Structure/Untitled",
     "2 - Essential commands/Untitled.md",
     "2 - Essential Commands",
